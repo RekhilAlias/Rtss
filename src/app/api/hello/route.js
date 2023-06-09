@@ -1,5 +1,5 @@
-export function GetNameHandler(req, res) {
-  res.status(200).json({
-    name: "Rekhil",
-  });
+async function GET() {
+  return new Response("hello api");
 }
+
+export { GET };

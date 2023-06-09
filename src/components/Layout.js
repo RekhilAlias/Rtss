@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 
 const Layout = ({ children }) => {
   return (
@@ -12,9 +13,7 @@ const Layout = ({ children }) => {
       {/* Render the content of the specific page */}
       {children}
 
-      <footer>
-        <h1>Footer</h1>
-      </footer>
+      <Footer />
     </div>
   );
 };
