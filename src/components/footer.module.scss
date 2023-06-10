@@ -381,3 +381,75 @@
     }
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .subscribemaincontainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -2em;
+    padding: 2em;
+    position: relative;
+    background-color: #9e0202;
+    border-top-left-radius: 30px;
+
+    .subscribeparent {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+
+      .subchildone {
+        width: 100%;
+        h1 {
+          color: #ffffff;
+          font-size: 2rem;
+          font-weight: 700;
+          opacity: 95%;
+        }
+
+        p {
+          font-weight: 400;
+          color: #ffffff;
+          opacity: 80%;
+          margin-top: 1em;
+        }
+      }
+
+      .subchildtwo {
+        width: 100%;
+        margin-top: 2em;
+        #inputbutton1 {
+          width: 100%;
+          padding: 0;
+          height: 50px;
+          border: none;
+          outline: none;
+          border-top-left-radius: 0px;
+          border-bottom-left-radius: 0px;
+        }
+
+        #inputbutton2 {
+          padding: 0;
+          height: 50px;
+          margin-top: 1em;
+          width: 100%;
+          border: none;
+          outline: none;
+          margin-left: 0em;
+          border-top-right-radius: 37px;
+          border-bottom-right-radius: 37px;
+          border-top-left-radius: 37px;
+          border-bottom-left-radius: 37px;
+
+          color: #ffffff;
+          background: #ff0000 0% 0% no-repeat padding-box;
+        }
+      }
+    }
+
+    input::placeholder {
+      padding: 1em;
+    }
+  }
+}
